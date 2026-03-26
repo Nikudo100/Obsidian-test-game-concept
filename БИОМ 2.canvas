@@ -1,7 +1,15 @@
 {
 	"nodes":[
-		{"id":"d8e2e16587c2435e","x":-320,"y":-60,"width":400,"height":400,"type":"file","file":"Vault-RavenswatchLike/05-Контент/Враг-Оскверненная-дриада.md"},
-		{"id":"dec4a457199c1581","x":-280,"y":-200,"width":250,"height":60,"type":"text","text":""}
+		{"id":"dec4a457199c1581","type":"text","text":"Лесной биом","x":-280,"y":-200,"width":250,"height":60},
+		{"id":"37ac58863940894d","type":"text","text":"Враги","x":-601,"y":0,"width":241,"height":78},
+		{"id":"d8e2e16587c2435e","type":"file","file":"Vault-RavenswatchLike/05-Контент/Враг-Оскверненная-дриада.md","x":-680,"y":560,"width":400,"height":400},
+		{"id":"4e39d43344176cef","type":"text","text":"Наполнение ","x":120,"y":48,"width":250,"height":60},
+		{"id":"0401671c061ece8f","type":"text","text":"Собственно все что у нас есть в лесу","x":120,"y":210,"width":250,"height":60}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"31dcab2b913ce8e8","fromNode":"dec4a457199c1581","fromSide":"bottom","toNode":"37ac58863940894d","toSide":"top"},
+		{"id":"edf05be1cf367cd9","fromNode":"37ac58863940894d","fromSide":"bottom","toNode":"d8e2e16587c2435e","toSide":"top","label":"Лесные жители осквернены"},
+		{"id":"621862a6a2e99dd9","fromNode":"dec4a457199c1581","fromSide":"bottom","toNode":"4e39d43344176cef","toSide":"top"},
+		{"id":"e664713d35dd594c","fromNode":"4e39d43344176cef","fromSide":"bottom","toNode":"0401671c061ece8f","toSide":"top"}
+	]
 }

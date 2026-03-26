@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"f2810f1a697865f5","type":"text","text":"Вход","x":-100,"y":-360,"width":235,"height":55},
+		{"id":"8e7b505107792ddc","type":"text","text":"Заставка","x":-107,"y":-200,"width":250,"height":60},
+		{"id":"f015943424b70a38","type":"text","text":"Меню выбора персонажа","x":-105,"y":31,"width":250,"height":60},
+		{"id":"3938fc68be521e52","type":"text","text":"Вход","x":-104,"y":321,"width":250,"height":60},
+		{"id":"9a3b48bf0e4e41b8","type":"text","text":"Соло","x":-457,"y":543,"width":250,"height":60},
+		{"id":"c3f3d23e35f2ec3a","type":"text","text":"Кооп","x":245,"y":552,"width":250,"height":60},
+		{"id":"531e2d1c4538d379","type":"text","text":"Добавление в пати","x":244,"y":404,"width":250,"height":60},
+		{"id":"fcabfd7ff1170852","type":"text","text":"Загрузка биома","x":-105,"y":863,"width":305,"height":57},
+		{"id":"b3f214a709f3b8b0","type":"text","text":"Точка респа","x":-76,"y":1099,"width":250,"height":60},
+		{"id":"759ffbb33501889c","type":"text","text":"Формирование карты","x":-483,"y":863,"width":250,"height":60},
+		{"id":"d6a6d17cf8f78390","type":"text","text":"Настройки","x":278,"y":31,"width":250,"height":60},
+		{"id":"18a4fc669e9c4496","type":"text","text":"Описание навыков и предметов","x":-505,"y":32,"width":250,"height":60},
+		{"id":"2d63b59eecf711d4","type":"text","text":"Думаю сделаем как у орига, если получал шмотки, то видишь что она даёт, если нет, то нет","x":-560,"y":-200,"width":303,"height":87},
+		{"id":"2ab0434375100135","x":454,"y":658,"width":250,"height":60,"type":"text","text":"Поиск рандомов"}
+	],
+	"edges":[
+		{"id":"7d83e5e912417915","fromNode":"f2810f1a697865f5","fromSide":"bottom","toNode":"8e7b505107792ddc","toSide":"top"},
+		{"id":"ff04274277d7f4eb","fromNode":"8e7b505107792ddc","fromSide":"bottom","toNode":"f015943424b70a38","toSide":"top"},
+		{"id":"b8a793ad7d7c8883","fromNode":"f015943424b70a38","fromSide":"bottom","toNode":"3938fc68be521e52","toSide":"top"},
+		{"id":"3b0c19e173a19e9f","fromNode":"3938fc68be521e52","fromSide":"left","toNode":"9a3b48bf0e4e41b8","toSide":"right"},
+		{"id":"025f31b1bb87bb91","fromNode":"3938fc68be521e52","fromSide":"right","toNode":"c3f3d23e35f2ec3a","toSide":"left"},
+		{"id":"09d9209623f9c172","fromNode":"c3f3d23e35f2ec3a","fromSide":"top","toNode":"531e2d1c4538d379","toSide":"bottom"},
+		{"id":"5503d16f9500283b","fromNode":"c3f3d23e35f2ec3a","fromSide":"bottom","toNode":"fcabfd7ff1170852","toSide":"top"},
+		{"id":"7647323ed93afa3e","fromNode":"9a3b48bf0e4e41b8","fromSide":"bottom","toNode":"fcabfd7ff1170852","toSide":"top"},
+		{"id":"ca75e35200961ab4","fromNode":"fcabfd7ff1170852","fromSide":"bottom","toNode":"b3f214a709f3b8b0","toSide":"top"},
+		{"id":"d6f0cd72474cf7a1","fromNode":"fcabfd7ff1170852","fromSide":"left","toNode":"759ffbb33501889c","toSide":"right"},
+		{"id":"4ac1422eb1540ac9","fromNode":"f015943424b70a38","fromSide":"right","toNode":"d6a6d17cf8f78390","toSide":"left"},
+		{"id":"1848e3300bc6d8a4","fromNode":"f015943424b70a38","fromSide":"left","toNode":"18a4fc669e9c4496","toSide":"right"},
+		{"id":"3fcc52a740706a2b","fromNode":"18a4fc669e9c4496","fromSide":"top","toNode":"2d63b59eecf711d4","toSide":"bottom"},
+		{"id":"c239283452fe9020","fromNode":"c3f3d23e35f2ec3a","fromSide":"right","toNode":"2ab0434375100135","toSide":"left"}
+	]
+}
